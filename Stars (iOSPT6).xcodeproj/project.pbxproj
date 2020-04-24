@@ -13,6 +13,8 @@
 		AD72AE2324527A2600AC43DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72AE2124527A2600AC43DB /* Main.storyboard */; };
 		AD72AE2524527A2800AC43DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD72AE2424527A2800AC43DB /* Assets.xcassets */; };
 		AD72AE2824527A2800AC43DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72AE2624527A2800AC43DB /* LaunchScreen.storyboard */; };
+		AD72AE302452836F00AC43DB /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE2F2452836F00AC43DB /* Star.swift */; };
+		AD72AE33245284CE00AC43DB /* StarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72AE32245284CE00AC43DB /* StarsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AD72AE2424527A2800AC43DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD72AE2724527A2800AC43DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD72AE2924527A2800AC43DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD72AE2F2452836F00AC43DB /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		AD72AE32245284CE00AC43DB /* StarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,26 @@
 				AD72AE2424527A2800AC43DB /* Assets.xcassets */,
 				AD72AE2624527A2800AC43DB /* LaunchScreen.storyboard */,
 				AD72AE2924527A2800AC43DB /* Info.plist */,
+				AD72AE312452846600AC43DB /* Model */,
+				AD72AE34245284DC00AC43DB /* Model Controller */,
 			);
 			path = "Stars (iOSPT6)";
+			sourceTree = "<group>";
+		};
+		AD72AE312452846600AC43DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD72AE2F2452836F00AC43DB /* Star.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD72AE34245284DC00AC43DB /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD72AE32245284CE00AC43DB /* StarsController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				AD72AE2024527A2600AC43DB /* StarsViewController.swift in Sources */,
 				AD72AE1C24527A2600AC43DB /* AppDelegate.swift in Sources */,
 				AD72AE1E24527A2600AC43DB /* SceneDelegate.swift in Sources */,
+				AD72AE302452836F00AC43DB /* Star.swift in Sources */,
+				AD72AE33245284CE00AC43DB /* StarsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
